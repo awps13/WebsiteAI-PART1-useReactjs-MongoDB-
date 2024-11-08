@@ -1,7 +1,8 @@
 // src/components/PesananForm.js
 
 import React, { useState } from "react";
-// import "./PesananForm.css";
+import "../style/PesananForm.css";
+import Sidebar from '../components/Sidebar'
 
 function PesananForm() {
     const [pickupLocation, setPickupLocation] = useState("");
@@ -23,6 +24,7 @@ function PesananForm() {
 
     return (
         <div className="main-content">
+            <Sidebar/>
             <header>
                 <h1>Form Pemesanan Pickup</h1>
             </header>

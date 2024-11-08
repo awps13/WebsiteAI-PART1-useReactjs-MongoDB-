@@ -1,9 +1,10 @@
-import pesanan from './pages/Pesanan'
+import Pesanan from './pages/Pesanan'
+
 
 function App() {
   return (
     <div>
-      <pesanan/>
+      <Pesanan/>
     </div>
   )
 }
