@@ -1,10 +1,9 @@
-import Pesanan from './pages/Pesanan'
-
+import React from 'react'
 
 function App() {
   return (
     <div>
-      <Pesanan/>
+      <h1>Hello</h1>
     </div>
   )
 }
